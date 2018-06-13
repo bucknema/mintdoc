@@ -19,6 +19,10 @@
         <title>Simple Terminal Commands for Beginners</title>
     </sect1>
     
+     <sect1>
+        <title>Desktop Customization</title>
+     </sect1>
+    
     <sect1>
         <title>Take notes with Tomboy</title>
         <para>We all take notes. Whether it's an address given by someone over the phone, an ever-growing TODO list or some particular thing to remember, we're often faced with the situation where we need to take a quick note. Some of us have a lot of written notes around our computers and never seem to find a working pen when the situation arises, others waste time in launching tools that are not suitable for this particular use (LibreOffice Writer for instance is not very handy to take notes) and very few people actually use software dedicated to note-taking. Linux Mint happens to include a dedicated note-taking tool. It is called Tomboy Notes.</para>
