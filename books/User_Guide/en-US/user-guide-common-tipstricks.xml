@@ -3,7 +3,7 @@
 ]>
 <chapter id="tipstricks">
     <title>Tips and Tricks</title>
-    <para>Are you making the most of your desktop? Do you usually press <keycombo><keycap>Ctrl</keycap><keycap>C</keycap></keycombo> on your keyboard to copy some text? Do you open a text editor to take a quick note? How do you share files with your friends? There are many ways to perform simple tasks, some more efficient than others. This chapter is going to show you a few particularities of the Linux Mint desktop, to make sure you make the most of your system.</para>
+    <para>Are you making the most of your desktop? Do you usually press <keycombo><keycap>Ctrl</keycap><keycap>C</keycap></keycombo> on your keyboard to copy some text? Do you open a text editor to take a quick note? Do you utilize shell commands to simplify tasks? There are many ways to perform simple tasks, some more efficient than others. This chapter is going to show you a few particularities of the Linux Mint desktop, to make sure you make the most of your system.</para>
     <sect1>
         <title>Copy and paste with the mouse!</title>
         <para>Most people are used to clicking on the <guimenu>Edit</guimenu> menu or to right clicking on the content they want to copy. In Linux Mint you can do this as well, but you can also copy and paste content from the comfort of your mouse. Here's how it works: The left button of the mouse copies and the middle button pastes. It's as simple as that!</para>
@@ -12,6 +12,13 @@
         <para>The more you get used to this the faster you'll get at copying and pasting content.</para>
         <note><para>The buffer used by the mouse is not the same as the one used by the desktop. So you can actually copy something with your mouse and copy something else with <keycombo><keycap>Ctrl</keycap><keycap>C</keycap></keycombo> or with the <guimenu>Edit</guimenu> menu. Thanks to this you can copy two elements at a time and depending on how you copied them you can paste them with either the middle mouse button or with <keycombo><keycap>Ctrl</keycap><keycap>V</keycap></keycombo> or the <guimenu>Edit</guimenu> menu.</para></note>
     </sect1>
+    <sect1>
+        <title>Keyboard Shorts</title>
+    </sect1>
+    <sect1>
+        <title>Simple Terminal Commands for Beginners</title>
+    </sect1>
+    
     <sect1>
         <title>Take notes with Tomboy</title>
         <para>We all take notes. Whether it's an address given by someone over the phone, an ever-growing TODO list or some particular thing to remember, we're often faced with the situation where we need to take a quick note. Some of us have a lot of written notes around our computers and never seem to find a working pen when the situation arises, others waste time in launching tools that are not suitable for this particular use (LibreOffice Writer for instance is not very handy to take notes) and very few people actually use software dedicated to note-taking. Linux Mint happens to include a dedicated note-taking tool. It is called Tomboy Notes.</para>
