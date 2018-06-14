@@ -94,7 +94,7 @@
              <command>man bash</command>
          </screen>
             <para>For the bold and adventurous, this accesses the manual page for bash, which is the command line shell itself that Linux Mint uses. The shell's name, bash, is an acronym for Bourne-again shell.</para>
-            <para>If you would like additional guidance on learning the Linux comand line, there are many free resources available online to explore. “The Linux Command Line by William Shotts” is one such recommended free book: http://linuxcommand.org/tlcl.php</para>
+            <para>If you would like additional guidance on learning the Linux comand line, there are many free resources available online to explore. “The Linux Command Line by William Shotts” is one such recommended free book: <ulink url="http://linuxcommand.org/tlcl.php">http://linuxcommand.org/tlcl.php</ulink></para>
     </sect1>
     
      <sect1>
