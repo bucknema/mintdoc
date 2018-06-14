@@ -36,6 +36,16 @@
         </screen>
         <para>Shows where you are in the system’s directory tree (pwd stands for “print working directory”). </para>
         <para>Try it: Open a new terminal with Ctrl+Alt+T and then type pwd and press enter. You should see that your current working directory is /home/your_username.</para>
+        <figure id="pwd-figure">
+            <title>pwd</title>
+            <screenshot>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="images/desktops/cinnamon/pwd.png" format="PNG" width="100%"/>
+                    </imageobject>
+                </mediaobject>
+            </screenshot>
+        </figure>
         <screen>
                     <command>ls</command>
         </screen>
@@ -72,6 +82,16 @@
              <command>cal 2018</command>
          </screen>
             <para>Outputs a calendar of the year 2018.</para>
+            <figure id="cal-figure">
+            <title>pwd</title>
+            <screenshot>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="images/desktops/cinnamon/cal.png" format="PNG" width="100%"/>
+                    </imageobject>
+                </mediaobject>
+            </screenshot>
+        </figure>
          <screen>
              <command>man</command>
          </screen>
@@ -99,8 +119,87 @@
     
      <sect1>
         <title>Desktop Customization</title>
+         <para>Adjust window transparency by scrollwheel: </para>
+         <para>Menu -> System Settings -> Windows -> Titlebar</para>
+         <para>Update Action on title bar with mouse scroll to: Adjust opacity</para>
+         <para>This will allow you to use your mouse scrollwheel on a title bar to adjust the windows opacity.</para>
+         <figure id="windows-settings-figure">
+            <title>Windows settings</title>
+            <screenshot>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="images/desktops/cinnamon/windowsettings.png" format="PNG" width="100%"/>
+                    </imageobject>
+                </mediaobject>
+            </screenshot>
+        </figure>
+         <para>Try it out; simply hover your mouse over the title bar of any window, and scroll your wheel down to lighten the window.</para>
+         <figure id="window-figure">
+            <title>Windows customization</title>
+            <screenshot>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="images/desktops/cinnamon/transparentwindow.png" format="PNG" width="100%"/>
+                    </imageobject>
+                </mediaobject>
+            </screenshot>
+        </figure>
+        <para>Get window previews with Alt-Tab: </para>
+        <para>Menu -> System Settings -> Windows -> Alt-Tab </para>
+        <para>Update Alt-Tab switcher style to: Icons and window preview</para>
+        <para></para>
+        <para>You might be used to switching between windows on your desktop with Alt-Tab. This setting adjustment will give you helpful window previews as you cycle through your Alt-Tab list, instead of only showing icons. </para>
+        <para></para>
+        <para>Add Help launcher to panel bar: <para>
+        <para>Menu -> Accessories -> Help </para> 
+        <para>Right click on Help and select add to panel. (You can add any other program to the panel in the same manner.)</para>
+            <para></para>   
+            <para>Change Menu icon and text: </para>
+            <para>Right click on the Menu icon and select Configure.</para>
+            <para>Change Use a custom icon to: ON</para>
+            <para>Select the image file you want to use as a your Menu icon.</para>
+            <para>You can change the Text field to whatever you want. For example, START, GO, MENU, or whatever else. Here’s an example using the classic Playstation logo and the text START</para>
+            <figure id="panel-figure">
+            <title>Menu customization</title>
+            <screenshot>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="images/desktops/cinnamon/custompanel.png" format="PNG" width="100%"/>
+                    </imageobject>
+                </mediaobject>
+            </screenshot>
+        </figure>
+            <para>Add Cinnamon Spices (Desklets, Applets, and Extensions) to your desktop</para>
+            <para>Modify your Cinnamon desktop environment and extend its features with Cinnamon Spices. This is a large part of what makes using Linux Mint so fun. </para>
+            <para>Cinnamon supports the following types of spices: themes, applets, desklets and extensions.</para>
+            <para>You can add Themes, Desklets, Applets, or Extensions from the Menu:</para>
+            <para>Menu -> Preferences -> Themes</para>
+            <para>Menu -> Preferences -> Desklets (Alternatively, right click your desktop and select Add Desklets)</para>
+            <para>Menu -> Preferences -> Applets</para>
+            <para>Menu -> Preferences -> Extensions</para>
+            <para></para>
+            <para>Browse addons for your Cinnamon desktop online here: <ulink url="https://cinnamon-spices.linuxmint.com">https://cinnamon-spices.linuxmint.com</ulink></para>
+            <para></para>
+            <para>Desklet Example - Quote of the Day:</para>
+            <para>Want to get a quote of the day directly on your desktop? Just add the Desklet!</para>
+            <para>Right click your desktop and select Add Desklets. Change tabs to Available desklets (online). Search for Quote of the day desklet. Check the checkbox next to it, and then click the button to Install.</para>
+             <para>Now from the Installed desklets tab, right click Quote of the day desklet and select Add to deskto</para>
+             <figure id="qotd-figure">
+            <title>Quote of the day Desklet</title>
+            <screenshot>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="images/desktops/cinnamon/qotd.png" format="PNG" width="100%"/>
+                    </imageobject>
+                </mediaobject>
+            </screenshot>
+        </figure>
+             <para>There are other great Desklets, Applets, and Extensions available thanks to the wonderful community behind Linux Mint. Do some exploring, and have fun spicing up your desktop environment with Cinnamon Spices!</para>
+         
      </sect1>
     
+        
+        
     <sect1>
         <title>Take notes with Tomboy</title>
         <para>We all take notes. Whether it's an address given by someone over the phone, an ever-growing TODO list or some particular thing to remember, we're often faced with the situation where we need to take a quick note. Some of us have a lot of written notes around our computers and never seem to find a working pen when the situation arises, others waste time in launching tools that are not suitable for this particular use (LibreOffice Writer for instance is not very handy to take notes) and very few people actually use software dedicated to note-taking. Linux Mint happens to include a dedicated note-taking tool. It is called Tomboy Notes.</para>
